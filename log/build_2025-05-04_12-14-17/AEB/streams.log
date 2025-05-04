@@ -1,0 +1,39 @@
+[5.440s] Invoking command in '/home/darc-f1-01/ros2_ws/src/AEB': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/AEB/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/AEB build --build-base /home/darc-f1-01/ros2_ws/build/AEB/build install --record /home/darc-f1-01/ros2_ws/build/AEB/install.log --single-version-externally-managed install_data
+[6.194s] Traceback (most recent call last):
+[6.194s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2866, in get_entry_map
+[6.194s]     ep_map = self._ep_map
+[6.194s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2828, in __getattr__
+[6.195s]     raise AttributeError(attr)
+[6.195s] AttributeError: _ep_map. Did you mean: '_dep_map'?
+[6.195s] 
+[6.195s] During handling of the above exception, another exception occurred:
+[6.195s] 
+[6.195s] Traceback (most recent call last):
+[6.195s]   File "/home/darc-f1-01/ros2_ws/src/AEB/setup.py", line 5, in <module>
+[6.196s]     setup(
+[6.196s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 152, in setup
+[6.196s]     _install_setup_requires(attrs)
+[6.196s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 142, in _install_setup_requires
+[6.196s]     dist = MinimalDistribution(attrs)
+[6.196s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 134, in __init__
+[6.196s]     distutils.core.Distribution.__init__(self, filtered)
+[6.196s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 457, in __init__
+[6.197s]     for ep in pkg_resources.iter_entry_points('distutils.setup_keywords'):
+[6.197s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 646, in <genexpr>
+[6.197s]     for entry in dist.get_entry_map(group).values()
+[6.197s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2868, in get_entry_map
+[6.197s]     ep_map = self._ep_map = EntryPoint.parse_map(
+[6.197s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2549, in parse_map
+[6.197s]     for group, lines in data:
+[6.197s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3205, in split_sections
+[6.198s]     for line in yield_lines(s):
+[6.198s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2780, in _get_metadata
+[6.198s]     for line in self.get_metadata_lines(name):
+[6.198s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1422, in get_metadata_lines
+[6.198s]     return yield_lines(self.get_metadata(name))
+[6.198s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1412, in get_metadata
+[6.198s]     value = self._get(path)
+[6.199s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1616, in _get
+[6.199s]     with open(path, 'rb') as stream:
+[6.199s] FileNotFoundError: [Errno 2] No such file or directory: '/home/darc-f1-01/ros2_ws/install/5M_test/lib/python3.10/site-packages/5M_test-0.0.0-py3.10.egg-info/entry_points.txt'
+[6.277s] Invoked command in '/home/darc-f1-01/ros2_ws/src/AEB' returned '1': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/AEB/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/AEB build --build-base /home/darc-f1-01/ros2_ws/build/AEB/build install --record /home/darc-f1-01/ros2_ws/build/AEB/install.log --single-version-externally-managed install_data

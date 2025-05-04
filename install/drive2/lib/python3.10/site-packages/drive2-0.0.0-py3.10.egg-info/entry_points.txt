@@ -1,0 +1,3 @@
+[console_scripts]
+drive2 = drive2.drive2:main
+

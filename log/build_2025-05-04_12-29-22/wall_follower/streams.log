@@ -1,0 +1,20 @@
+[4.546s] Invoking command in '/home/darc-f1-01/ros2_ws/src/wall_follower': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/wall_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wall_follower build --build-base /home/darc-f1-01/ros2_ws/build/wall_follower/build install --record /home/darc-f1-01/ros2_ws/build/wall_follower/install.log --single-version-externally-managed install_data
+[5.247s] running egg_info
+[5.249s] writing ../../build/wall_follower/wall_follower.egg-info/PKG-INFO
+[5.250s] writing dependency_links to ../../build/wall_follower/wall_follower.egg-info/dependency_links.txt
+[5.250s] writing entry points to ../../build/wall_follower/wall_follower.egg-info/entry_points.txt
+[5.251s] writing requirements to ../../build/wall_follower/wall_follower.egg-info/requires.txt
+[5.251s] writing top-level names to ../../build/wall_follower/wall_follower.egg-info/top_level.txt
+[5.256s] reading manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'
+[5.258s] writing manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'
+[5.258s] running build
+[5.259s] running build_py
+[5.259s] running install
+[5.260s] running install_lib
+[5.268s] running install_data
+[5.268s] running install_egg_info
+[5.272s] removing '/home/darc-f1-01/ros2_ws/install/wall_follower/lib/python3.10/site-packages/wall_follower-0.0.0-py3.10.egg-info' (and everything under it)
+[5.273s] Copying ../../build/wall_follower/wall_follower.egg-info to /home/darc-f1-01/ros2_ws/install/wall_follower/lib/python3.10/site-packages/wall_follower-0.0.0-py3.10.egg-info
+[5.275s] running install_scripts
+[5.329s] Installing wall_follower script to /home/darc-f1-01/ros2_ws/install/wall_follower/lib/wall_follower
+[5.329s] writing list of installed files to '/home/darc-f1-01/ros2_ws/build/wall_follower/install.log'

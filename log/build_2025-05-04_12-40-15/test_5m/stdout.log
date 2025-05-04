@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/test_5m/test_5m.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_5m/test_5m.egg-info/dependency_links.txt
+writing entry points to ../../build/test_5m/test_5m.egg-info/entry_points.txt
+writing requirements to ../../build/test_5m/test_5m.egg-info/requires.txt
+writing top-level names to ../../build/test_5m/test_5m.egg-info/top_level.txt
+reading manifest file '../../build/test_5m/test_5m.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_5m/test_5m.egg-info/SOURCES.txt'
+running build
+running build_py
+copying test_5m/test_5m.py -> /home/darc-f1-01/ros2_ws/build/test_5m/build/lib/test_5m
+running install
+running install_lib
+copying /home/darc-f1-01/ros2_ws/build/test_5m/build/lib/test_5m/test_5m.py -> /home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages/test_5m
+byte-compiling /home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages/test_5m/test_5m.py to test_5m.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages/test_5m-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/test_5m/test_5m.egg-info to /home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages/test_5m-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test_5m script to /home/darc-f1-01/ros2_ws/install/test_5m/lib/test_5m
+writing list of installed files to '/home/darc-f1-01/ros2_ws/build/test_5m/install.log'

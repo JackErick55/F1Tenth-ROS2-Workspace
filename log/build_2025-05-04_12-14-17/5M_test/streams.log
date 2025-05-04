@@ -1,0 +1,20 @@
+[5.338s] Invoking command in '/home/darc-f1-01/ros2_ws/src/5M_test': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/5M_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/5M_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/5M_test build --build-base /home/darc-f1-01/ros2_ws/build/5M_test/build install --record /home/darc-f1-01/ros2_ws/build/5M_test/install.log --single-version-externally-managed install_data
+[6.034s] running egg_info
+[6.037s] writing ../../build/5M_test/5M_test.egg-info/PKG-INFO
+[6.038s] writing dependency_links to ../../build/5M_test/5M_test.egg-info/dependency_links.txt
+[6.039s] writing entry points to ../../build/5M_test/5M_test.egg-info/entry_points.txt
+[6.040s] writing requirements to ../../build/5M_test/5M_test.egg-info/requires.txt
+[6.041s] writing top-level names to ../../build/5M_test/5M_test.egg-info/top_level.txt
+[6.048s] reading manifest file '../../build/5M_test/5M_test.egg-info/SOURCES.txt'
+[6.050s] writing manifest file '../../build/5M_test/5M_test.egg-info/SOURCES.txt'
+[6.051s] running build
+[6.051s] running build_py
+[6.052s] running install
+[6.053s] running install_lib
+[6.061s] running install_data
+[6.061s] running install_egg_info
+[6.066s] removing '/home/darc-f1-01/ros2_ws/install/5M_test/lib/python3.10/site-packages/5M_test-0.0.0-py3.10.egg-info' (and everything under it)
+[6.067s] Copying ../../build/5M_test/5M_test.egg-info to /home/darc-f1-01/ros2_ws/install/5M_test/lib/python3.10/site-packages/5M_test-0.0.0-py3.10.egg-info
+[6.070s] running install_scripts
+[6.127s] writing list of installed files to '/home/darc-f1-01/ros2_ws/build/5M_test/install.log'
+[6.219s] Invoked command in '/home/darc-f1-01/ros2_ws/src/5M_test' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/5M_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/5M_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/5M_test build --build-base /home/darc-f1-01/ros2_ws/build/5M_test/build install --record /home/darc-f1-01/ros2_ws/build/5M_test/install.log --single-version-externally-managed install_data

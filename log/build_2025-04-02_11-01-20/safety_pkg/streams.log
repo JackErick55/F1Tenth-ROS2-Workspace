@@ -1,0 +1,24 @@
+[1.569s] Invoking command in '/home/darc-f1-01/ros2_ws/src/safety_pkg': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/safety_pkg build --build-base /home/darc-f1-01/ros2_ws/build/safety_pkg/build install --record /home/darc-f1-01/ros2_ws/build/safety_pkg/install.log --single-version-externally-managed install_data
+[2.182s] running egg_info
+[2.184s] writing ../../build/safety_pkg/safety_pkg.egg-info/PKG-INFO
+[2.184s] writing dependency_links to ../../build/safety_pkg/safety_pkg.egg-info/dependency_links.txt
+[2.184s] writing entry points to ../../build/safety_pkg/safety_pkg.egg-info/entry_points.txt
+[2.185s] writing requirements to ../../build/safety_pkg/safety_pkg.egg-info/requires.txt
+[2.185s] writing top-level names to ../../build/safety_pkg/safety_pkg.egg-info/top_level.txt
+[2.189s] reading manifest file '../../build/safety_pkg/safety_pkg.egg-info/SOURCES.txt'
+[2.191s] writing manifest file '../../build/safety_pkg/safety_pkg.egg-info/SOURCES.txt'
+[2.191s] running build
+[2.192s] running build_py
+[2.192s] copying safety_pkg/safety_node.py -> /home/darc-f1-01/ros2_ws/build/safety_pkg/build/lib/safety_pkg
+[2.192s] running install
+[2.193s] running install_lib
+[2.197s] copying /home/darc-f1-01/ros2_ws/build/safety_pkg/build/lib/safety_pkg/safety_node.py -> /home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages/safety_pkg
+[2.199s] byte-compiling /home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages/safety_pkg/safety_node.py to safety_node.cpython-310.pyc
+[2.201s] running install_data
+[2.201s] running install_egg_info
+[2.206s] removing '/home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages/safety_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.206s] Copying ../../build/safety_pkg/safety_pkg.egg-info to /home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages/safety_pkg-0.0.0-py3.10.egg-info
+[2.209s] running install_scripts
+[2.259s] Installing safety_node script to /home/darc-f1-01/ros2_ws/install/safety_pkg/lib/safety_pkg
+[2.259s] writing list of installed files to '/home/darc-f1-01/ros2_ws/build/safety_pkg/install.log'
+[2.334s] Invoked command in '/home/darc-f1-01/ros2_ws/src/safety_pkg' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/safety_pkg build --build-base /home/darc-f1-01/ros2_ws/build/safety_pkg/build install --record /home/darc-f1-01/ros2_ws/build/safety_pkg/install.log --single-version-externally-managed install_data

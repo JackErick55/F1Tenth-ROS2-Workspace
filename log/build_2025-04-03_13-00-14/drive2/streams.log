@@ -1,0 +1,24 @@
+[1.575s] Invoking command in '/home/darc-f1-01/ros2_ws/src/drive2': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/drive2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/drive2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drive2 build --build-base /home/darc-f1-01/ros2_ws/build/drive2/build install --record /home/darc-f1-01/ros2_ws/build/drive2/install.log --single-version-externally-managed install_data
+[2.200s] running egg_info
+[2.201s] writing ../../build/drive2/drive2.egg-info/PKG-INFO
+[2.201s] writing dependency_links to ../../build/drive2/drive2.egg-info/dependency_links.txt
+[2.202s] writing entry points to ../../build/drive2/drive2.egg-info/entry_points.txt
+[2.202s] writing requirements to ../../build/drive2/drive2.egg-info/requires.txt
+[2.202s] writing top-level names to ../../build/drive2/drive2.egg-info/top_level.txt
+[2.207s] reading manifest file '../../build/drive2/drive2.egg-info/SOURCES.txt'
+[2.208s] writing manifest file '../../build/drive2/drive2.egg-info/SOURCES.txt'
+[2.209s] running build
+[2.209s] running build_py
+[2.209s] copying drive2/drive2.py -> /home/darc-f1-01/ros2_ws/build/drive2/build/lib/drive2
+[2.210s] running install
+[2.211s] running install_lib
+[2.215s] copying /home/darc-f1-01/ros2_ws/build/drive2/build/lib/drive2/drive2.py -> /home/darc-f1-01/ros2_ws/install/drive2/lib/python3.10/site-packages/drive2
+[2.217s] byte-compiling /home/darc-f1-01/ros2_ws/install/drive2/lib/python3.10/site-packages/drive2/drive2.py to drive2.cpython-310.pyc
+[2.218s] running install_data
+[2.218s] running install_egg_info
+[2.223s] removing '/home/darc-f1-01/ros2_ws/install/drive2/lib/python3.10/site-packages/drive2-0.0.0-py3.10.egg-info' (and everything under it)
+[2.224s] Copying ../../build/drive2/drive2.egg-info to /home/darc-f1-01/ros2_ws/install/drive2/lib/python3.10/site-packages/drive2-0.0.0-py3.10.egg-info
+[2.226s] running install_scripts
+[2.274s] Installing drive2 script to /home/darc-f1-01/ros2_ws/install/drive2/lib/drive2
+[2.275s] writing list of installed files to '/home/darc-f1-01/ros2_ws/build/drive2/install.log'
+[2.347s] Invoked command in '/home/darc-f1-01/ros2_ws/src/drive2' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/drive2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/drive2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drive2 build --build-base /home/darc-f1-01/ros2_ws/build/drive2/build install --record /home/darc-f1-01/ros2_ws/build/drive2/install.log --single-version-externally-managed install_data

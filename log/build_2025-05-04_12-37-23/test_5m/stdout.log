@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/test_5m/test_5m.egg-info
+writing ../../build/test_5m/test_5m.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_5m/test_5m.egg-info/dependency_links.txt
+writing entry points to ../../build/test_5m/test_5m.egg-info/entry_points.txt
+writing requirements to ../../build/test_5m/test_5m.egg-info/requires.txt
+writing top-level names to ../../build/test_5m/test_5m.egg-info/top_level.txt
+writing manifest file '../../build/test_5m/test_5m.egg-info/SOURCES.txt'
+reading manifest file '../../build/test_5m/test_5m.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_5m/test_5m.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/darc-f1-01/ros2_ws/build/test_5m/build
+creating /home/darc-f1-01/ros2_ws/build/test_5m/build/lib
+creating /home/darc-f1-01/ros2_ws/build/test_5m/build/lib/test_5m
+copying test_5m/__init__.py -> /home/darc-f1-01/ros2_ws/build/test_5m/build/lib/test_5m
+copying test_5m/test_5m.py -> /home/darc-f1-01/ros2_ws/build/test_5m/build/lib/test_5m
+running install
+running install_lib
+creating /home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages/test_5m
+copying /home/darc-f1-01/ros2_ws/build/test_5m/build/lib/test_5m/__init__.py -> /home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages/test_5m
+copying /home/darc-f1-01/ros2_ws/build/test_5m/build/lib/test_5m/test_5m.py -> /home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages/test_5m
+byte-compiling /home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages/test_5m/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages/test_5m/test_5m.py to test_5m.cpython-310.pyc
+running install_data
+creating /home/darc-f1-01/ros2_ws/install/test_5m/share/ament_index
+creating /home/darc-f1-01/ros2_ws/install/test_5m/share/ament_index/resource_index
+creating /home/darc-f1-01/ros2_ws/install/test_5m/share/ament_index/resource_index/packages
+copying resource/test_5m -> /home/darc-f1-01/ros2_ws/install/test_5m/share/ament_index/resource_index/packages
+copying package.xml -> /home/darc-f1-01/ros2_ws/install/test_5m/share/test_5m
+running install_egg_info
+Copying ../../build/test_5m/test_5m.egg-info to /home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages/test_5m-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test_5m script to /home/darc-f1-01/ros2_ws/install/test_5m/lib/test_5m
+writing list of installed files to '/home/darc-f1-01/ros2_ws/build/test_5m/install.log'

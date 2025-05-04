@@ -1,0 +1,37 @@
+[1.595s] Invoking command in '/home/darc-f1-01/ros2_ws/src/safety_pkg': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/safety_pkg build --build-base /home/darc-f1-01/ros2_ws/build/safety_pkg/build install --record /home/darc-f1-01/ros2_ws/build/safety_pkg/install.log --single-version-externally-managed install_data
+[2.212s] running egg_info
+[2.213s] creating ../../build/safety_pkg/safety_pkg.egg-info
+[2.213s] writing ../../build/safety_pkg/safety_pkg.egg-info/PKG-INFO
+[2.214s] writing dependency_links to ../../build/safety_pkg/safety_pkg.egg-info/dependency_links.txt
+[2.214s] writing entry points to ../../build/safety_pkg/safety_pkg.egg-info/entry_points.txt
+[2.215s] writing requirements to ../../build/safety_pkg/safety_pkg.egg-info/requires.txt
+[2.215s] writing top-level names to ../../build/safety_pkg/safety_pkg.egg-info/top_level.txt
+[2.215s] writing manifest file '../../build/safety_pkg/safety_pkg.egg-info/SOURCES.txt'
+[2.219s] reading manifest file '../../build/safety_pkg/safety_pkg.egg-info/SOURCES.txt'
+[2.220s] writing manifest file '../../build/safety_pkg/safety_pkg.egg-info/SOURCES.txt'
+[2.220s] running build
+[2.221s] running build_py
+[2.221s] creating /home/darc-f1-01/ros2_ws/build/safety_pkg/build
+[2.221s] creating /home/darc-f1-01/ros2_ws/build/safety_pkg/build/lib
+[2.222s] creating /home/darc-f1-01/ros2_ws/build/safety_pkg/build/lib/safety_pkg
+[2.222s] copying safety_pkg/__init__.py -> /home/darc-f1-01/ros2_ws/build/safety_pkg/build/lib/safety_pkg
+[2.222s] copying safety_pkg/safety_node.py -> /home/darc-f1-01/ros2_ws/build/safety_pkg/build/lib/safety_pkg
+[2.222s] running install
+[2.223s] running install_lib
+[2.226s] creating /home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages/safety_pkg
+[2.227s] copying /home/darc-f1-01/ros2_ws/build/safety_pkg/build/lib/safety_pkg/__init__.py -> /home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages/safety_pkg
+[2.227s] copying /home/darc-f1-01/ros2_ws/build/safety_pkg/build/lib/safety_pkg/safety_node.py -> /home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages/safety_pkg
+[2.228s] byte-compiling /home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages/safety_pkg/__init__.py to __init__.cpython-310.pyc
+[2.229s] byte-compiling /home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages/safety_pkg/safety_node.py to safety_node.cpython-310.pyc
+[2.230s] running install_data
+[2.231s] creating /home/darc-f1-01/ros2_ws/install/safety_pkg/share/ament_index
+[2.231s] creating /home/darc-f1-01/ros2_ws/install/safety_pkg/share/ament_index/resource_index
+[2.231s] creating /home/darc-f1-01/ros2_ws/install/safety_pkg/share/ament_index/resource_index/packages
+[2.231s] copying resource/safety_pkg -> /home/darc-f1-01/ros2_ws/install/safety_pkg/share/ament_index/resource_index/packages
+[2.232s] copying package.xml -> /home/darc-f1-01/ros2_ws/install/safety_pkg/share/safety_pkg
+[2.232s] running install_egg_info
+[2.235s] Copying ../../build/safety_pkg/safety_pkg.egg-info to /home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages/safety_pkg-0.0.0-py3.10.egg-info
+[2.237s] running install_scripts
+[2.284s] Installing safety_node script to /home/darc-f1-01/ros2_ws/install/safety_pkg/lib/safety_pkg
+[2.285s] writing list of installed files to '/home/darc-f1-01/ros2_ws/build/safety_pkg/install.log'
+[2.355s] Invoked command in '/home/darc-f1-01/ros2_ws/src/safety_pkg' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/safety_pkg build --build-base /home/darc-f1-01/ros2_ws/build/safety_pkg/build install --record /home/darc-f1-01/ros2_ws/build/safety_pkg/install.log --single-version-externally-managed install_data

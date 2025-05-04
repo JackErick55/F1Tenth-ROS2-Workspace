@@ -1,0 +1,3 @@
+[console_scripts]
+test_5M = test_5M.test_5M:main
+

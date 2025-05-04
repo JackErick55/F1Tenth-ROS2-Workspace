@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/5M_test/test_5M.egg-info/PKG-INFO
+../../build/5M_test/test_5M.egg-info/SOURCES.txt
+../../build/5M_test/test_5M.egg-info/dependency_links.txt
+../../build/5M_test/test_5M.egg-info/entry_points.txt
+../../build/5M_test/test_5M.egg-info/requires.txt
+../../build/5M_test/test_5M.egg-info/top_level.txt
+../../build/5M_test/test_5M.egg-info/zip-safe
+5M_test/__init__.py
+5M_test/test_5M.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

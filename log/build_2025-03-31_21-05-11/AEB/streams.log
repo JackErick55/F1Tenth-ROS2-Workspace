@@ -1,0 +1,22 @@
+[3.664s] Invoking command in '/home/darc-f1-01/ros2_ws/src/AEB': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/AEB/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/AEB build --build-base /home/darc-f1-01/ros2_ws/build/AEB/build install --record /home/darc-f1-01/ros2_ws/build/AEB/install.log --single-version-externally-managed install_data
+[4.280s] running egg_info
+[4.282s] writing ../../build/AEB/AEB.egg-info/PKG-INFO
+[4.282s] writing dependency_links to ../../build/AEB/AEB.egg-info/dependency_links.txt
+[4.282s] writing entry points to ../../build/AEB/AEB.egg-info/entry_points.txt
+[4.283s] writing requirements to ../../build/AEB/AEB.egg-info/requires.txt
+[4.283s] writing top-level names to ../../build/AEB/AEB.egg-info/top_level.txt
+[4.287s] reading manifest file '../../build/AEB/AEB.egg-info/SOURCES.txt'
+[4.289s] writing manifest file '../../build/AEB/AEB.egg-info/SOURCES.txt'
+[4.289s] running build
+[4.289s] running build_py
+[4.290s] running install
+[4.291s] running install_lib
+[4.297s] running install_data
+[4.297s] copying package.xml -> /home/darc-f1-01/ros2_ws/install/AEB/share/AEB
+[4.297s] running install_egg_info
+[4.301s] removing '/home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages/AEB-0.0.0-py3.10.egg-info' (and everything under it)
+[4.302s] Copying ../../build/AEB/AEB.egg-info to /home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages/AEB-0.0.0-py3.10.egg-info
+[4.304s] running install_scripts
+[4.355s] Installing AEB script to /home/darc-f1-01/ros2_ws/install/AEB/lib/AEB
+[4.356s] writing list of installed files to '/home/darc-f1-01/ros2_ws/build/AEB/install.log'
+[4.435s] Invoked command in '/home/darc-f1-01/ros2_ws/src/AEB' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/AEB/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/AEB build --build-base /home/darc-f1-01/ros2_ws/build/AEB/build install --record /home/darc-f1-01/ros2_ws/build/AEB/install.log --single-version-externally-managed install_data

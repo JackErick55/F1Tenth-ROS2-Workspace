@@ -1,0 +1,24 @@
+[1.540s] Invoking command in '/home/darc-f1-01/ros2_ws/src/gap_follow': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/gap_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/gap_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gap_follow build --build-base /home/darc-f1-01/ros2_ws/build/gap_follow/build install --record /home/darc-f1-01/ros2_ws/build/gap_follow/install.log --single-version-externally-managed install_data
+[2.211s] running egg_info
+[2.213s] writing ../../build/gap_follow/gap_follow.egg-info/PKG-INFO
+[2.214s] writing dependency_links to ../../build/gap_follow/gap_follow.egg-info/dependency_links.txt
+[2.214s] writing entry points to ../../build/gap_follow/gap_follow.egg-info/entry_points.txt
+[2.214s] writing requirements to ../../build/gap_follow/gap_follow.egg-info/requires.txt
+[2.215s] writing top-level names to ../../build/gap_follow/gap_follow.egg-info/top_level.txt
+[2.219s] reading manifest file '../../build/gap_follow/gap_follow.egg-info/SOURCES.txt'
+[2.220s] writing manifest file '../../build/gap_follow/gap_follow.egg-info/SOURCES.txt'
+[2.221s] running build
+[2.221s] running build_py
+[2.221s] copying gap_follow/gap_follow.py -> /home/darc-f1-01/ros2_ws/build/gap_follow/build/lib/gap_follow
+[2.222s] running install
+[2.223s] running install_lib
+[2.227s] copying /home/darc-f1-01/ros2_ws/build/gap_follow/build/lib/gap_follow/gap_follow.py -> /home/darc-f1-01/ros2_ws/install/gap_follow/lib/python3.10/site-packages/gap_follow
+[2.229s] byte-compiling /home/darc-f1-01/ros2_ws/install/gap_follow/lib/python3.10/site-packages/gap_follow/gap_follow.py to gap_follow.cpython-310.pyc
+[2.231s] running install_data
+[2.232s] running install_egg_info
+[2.236s] removing '/home/darc-f1-01/ros2_ws/install/gap_follow/lib/python3.10/site-packages/gap_follow-0.0.0-py3.10.egg-info' (and everything under it)
+[2.236s] Copying ../../build/gap_follow/gap_follow.egg-info to /home/darc-f1-01/ros2_ws/install/gap_follow/lib/python3.10/site-packages/gap_follow-0.0.0-py3.10.egg-info
+[2.239s] running install_scripts
+[2.294s] Installing gap_follow script to /home/darc-f1-01/ros2_ws/install/gap_follow/lib/gap_follow
+[2.295s] writing list of installed files to '/home/darc-f1-01/ros2_ws/build/gap_follow/install.log'
+[2.373s] Invoked command in '/home/darc-f1-01/ros2_ws/src/gap_follow' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/gap_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/gap_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gap_follow build --build-base /home/darc-f1-01/ros2_ws/build/gap_follow/build install --record /home/darc-f1-01/ros2_ws/build/gap_follow/install.log --single-version-externally-managed install_data

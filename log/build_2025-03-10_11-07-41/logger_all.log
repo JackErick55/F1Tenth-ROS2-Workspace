@@ -1,0 +1,278 @@
+[0.265s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.266s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff86729a80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff86977340>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff86977340>>)
+[0.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.689s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/darc-f1-01/ros2_ws'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extensions ['ignore', 'ignore_ament_install']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extension 'ignore'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extension 'ignore_ament_install'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extensions ['colcon_pkg']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extension 'colcon_pkg'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extensions ['colcon_meta']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extension 'colcon_meta'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extensions ['ros']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extension 'ros'
+[0.728s] DEBUG:colcon.colcon_core.package_identification:Package 'src/5M_test' with type 'ros.ament_python' and name '5M_test'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extensions ['ignore', 'ignore_ament_install']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extension 'ignore'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extension 'ignore_ament_install'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extensions ['colcon_pkg']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extension 'colcon_pkg'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extensions ['colcon_meta']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extension 'colcon_meta'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extensions ['ros']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extension 'ros'
+[0.731s] DEBUG:colcon.colcon_core.package_identification:Package 'src/AEB' with type 'ros.ament_python' and name 'AEB'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extensions ['ignore', 'ignore_ament_install']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extension 'ignore'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extension 'ignore_ament_install'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extensions ['colcon_pkg']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extension 'colcon_pkg'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extensions ['colcon_meta']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extension 'colcon_meta'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extensions ['ros']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extension 'ros'
+[0.733s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drive2' with type 'ros.ament_python' and name 'drive2'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/stop) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/stop) by extension 'ignore'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/stop) by extension 'ignore_ament_install'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/stop) by extensions ['colcon_pkg']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/stop) by extension 'colcon_pkg'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/stop) by extensions ['colcon_meta']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/stop) by extension 'colcon_meta'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/stop) by extensions ['ros']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/stop) by extension 'ros'
+[0.736s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stop' with type 'ros.ament_python' and name 'safety_node'
+[0.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.823s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/darc-f1-01/ros2_ws/install
+[0.825s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/darc-f1-01/f1tenth_ws/install
+[0.828s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[0.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.921s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'cmake_args' from command line to 'None'
+[0.921s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'cmake_target' from command line to 'None'
+[0.921s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.922s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.922s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.922s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.922s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.922s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.922s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.922s] DEBUG:colcon.colcon_core.verb:Building package '5M_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darc-f1-01/ros2_ws/build/5M_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darc-f1-01/ros2_ws/install/5M_test', 'merge_install': False, 'path': '/home/darc-f1-01/ros2_ws/src/5M_test', 'symlink_install': False, 'test_result_base': None}
+[0.923s] Level 5:colcon.colcon_core.verb:set package 'AEB' build argument 'cmake_args' from command line to 'None'
+[0.923s] Level 5:colcon.colcon_core.verb:set package 'AEB' build argument 'cmake_target' from command line to 'None'
+[0.923s] Level 5:colcon.colcon_core.verb:set package 'AEB' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.923s] Level 5:colcon.colcon_core.verb:set package 'AEB' build argument 'cmake_clean_cache' from command line to 'False'
+[0.923s] Level 5:colcon.colcon_core.verb:set package 'AEB' build argument 'cmake_clean_first' from command line to 'False'
+[0.923s] Level 5:colcon.colcon_core.verb:set package 'AEB' build argument 'cmake_force_configure' from command line to 'False'
+[0.923s] Level 5:colcon.colcon_core.verb:set package 'AEB' build argument 'ament_cmake_args' from command line to 'None'
+[0.923s] Level 5:colcon.colcon_core.verb:set package 'AEB' build argument 'catkin_cmake_args' from command line to 'None'
+[0.923s] Level 5:colcon.colcon_core.verb:set package 'AEB' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.923s] DEBUG:colcon.colcon_core.verb:Building package 'AEB' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darc-f1-01/ros2_ws/build/AEB', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darc-f1-01/ros2_ws/install/AEB', 'merge_install': False, 'path': '/home/darc-f1-01/ros2_ws/src/AEB', 'symlink_install': False, 'test_result_base': None}
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'cmake_args' from command line to 'None'
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'cmake_target' from command line to 'None'
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'cmake_clean_first' from command line to 'False'
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'cmake_force_configure' from command line to 'False'
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'ament_cmake_args' from command line to 'None'
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.925s] DEBUG:colcon.colcon_core.verb:Building package 'drive2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darc-f1-01/ros2_ws/build/drive2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darc-f1-01/ros2_ws/install/drive2', 'merge_install': False, 'path': '/home/darc-f1-01/ros2_ws/src/drive2', 'symlink_install': False, 'test_result_base': None}
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'cmake_args' from command line to 'None'
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'cmake_target' from command line to 'None'
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.926s] DEBUG:colcon.colcon_core.verb:Building package 'safety_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darc-f1-01/ros2_ws/build/safety_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darc-f1-01/ros2_ws/install/safety_node', 'merge_install': False, 'path': '/home/darc-f1-01/ros2_ws/src/stop', 'symlink_install': False, 'test_result_base': None}
+[0.926s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.929s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/darc-f1-01/ros2_ws/src/5M_test' with build type 'ament_python'
+[0.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('5M_test', 'ament_prefix_path')
+[0.935s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/hook/ament_prefix_path.ps1'
+[0.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/hook/ament_prefix_path.dsv'
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/hook/ament_prefix_path.sh'
+[0.939s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.940s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.950s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/darc-f1-01/ros2_ws/src/AEB' with build type 'ament_python'
+[0.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('AEB', 'ament_prefix_path')
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/AEB/share/AEB/hook/ament_prefix_path.ps1'
+[0.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/AEB/share/AEB/hook/ament_prefix_path.dsv'
+[0.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/AEB/share/AEB/hook/ament_prefix_path.sh'
+[0.954s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.954s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.964s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/darc-f1-01/ros2_ws/src/drive2' with build type 'ament_python'
+[0.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive2', 'ament_prefix_path')
+[0.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/hook/ament_prefix_path.ps1'
+[0.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/hook/ament_prefix_path.dsv'
+[0.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/hook/ament_prefix_path.sh'
+[0.969s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.969s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.978s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/darc-f1-01/ros2_ws/src/stop' with build type 'ament_python'
+[0.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('safety_node', 'ament_prefix_path')
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/safety_node/share/safety_node/hook/ament_prefix_path.ps1'
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/safety_node/share/safety_node/hook/ament_prefix_path.dsv'
+[0.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/safety_node/share/safety_node/hook/ament_prefix_path.sh'
+[0.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.983s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.719s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/darc-f1-01/ros2_ws/src/5M_test'
+[1.720s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.375s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/darc-f1-01/ros2_ws/src/AEB'
+[2.376s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.376s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.105s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/darc-f1-01/ros2_ws/src/drive2'
+[3.106s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.106s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.781s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/darc-f1-01/ros2_ws/src/stop'
+[3.782s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.782s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darc-f1-01/ros2_ws/src/5M_test': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/5M_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/5M_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/5M_test build --build-base /home/darc-f1-01/ros2_ws/build/5M_test/build install --record /home/darc-f1-01/ros2_ws/build/5M_test/install.log --single-version-externally-managed install_data
+[4.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darc-f1-01/ros2_ws/src/drive2': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/drive2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/drive2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drive2 build --build-base /home/darc-f1-01/ros2_ws/build/drive2/build install --record /home/darc-f1-01/ros2_ws/build/drive2/install.log --single-version-externally-managed install_data
+[4.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darc-f1-01/ros2_ws/src/stop': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/safety_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/safety_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/safety_node build --build-base /home/darc-f1-01/ros2_ws/build/safety_node/build install --record /home/darc-f1-01/ros2_ws/build/safety_node/install.log --single-version-externally-managed install_data
+[4.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darc-f1-01/ros2_ws/src/AEB': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/AEB/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/AEB build --build-base /home/darc-f1-01/ros2_ws/build/AEB/build install --record /home/darc-f1-01/ros2_ws/build/AEB/install.log --single-version-externally-managed install_data
+[5.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darc-f1-01/ros2_ws/src/stop' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/safety_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/safety_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/safety_node build --build-base /home/darc-f1-01/ros2_ws/build/safety_node/build install --record /home/darc-f1-01/ros2_ws/build/safety_node/install.log --single-version-externally-managed install_data
+[5.510s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/safety_node' for CMake module files
+[5.512s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/safety_node' for CMake config files
+[5.514s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/safety_node/lib'
+[5.515s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/safety_node/bin'
+[5.515s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/safety_node/lib/pkgconfig/safety_node.pc'
+[5.516s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/safety_node/lib/python3.10/site-packages'
+[5.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('safety_node', 'pythonpath')
+[5.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/safety_node/share/safety_node/hook/pythonpath.ps1'
+[5.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/safety_node/share/safety_node/hook/pythonpath.dsv'
+[5.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/safety_node/share/safety_node/hook/pythonpath.sh'
+[5.523s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/safety_node/bin'
+[5.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(safety_node)
+[5.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/safety_node/share/safety_node/package.ps1'
+[5.529s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darc-f1-01/ros2_ws/install/safety_node/share/safety_node/package.dsv'
+[5.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/safety_node/share/safety_node/package.sh'
+[5.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/safety_node/share/safety_node/package.bash'
+[5.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/safety_node/share/safety_node/package.zsh'
+[5.539s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darc-f1-01/ros2_ws/install/safety_node/share/colcon-core/packages/safety_node)
+[5.544s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/drive2' for CMake module files
+[5.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darc-f1-01/ros2_ws/src/drive2' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/drive2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/drive2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drive2 build --build-base /home/darc-f1-01/ros2_ws/build/drive2/build install --record /home/darc-f1-01/ros2_ws/build/drive2/install.log --single-version-externally-managed install_data
+[5.547s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/drive2' for CMake config files
+[5.549s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/drive2/lib'
+[5.549s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/drive2/bin'
+[5.550s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/drive2/lib/pkgconfig/drive2.pc'
+[5.551s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/drive2/lib/python3.10/site-packages'
+[5.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive2', 'pythonpath')
+[5.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/hook/pythonpath.ps1'
+[5.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/hook/pythonpath.dsv'
+[5.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/hook/pythonpath.sh'
+[5.558s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/drive2/bin'
+[5.558s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive2)
+[5.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/package.ps1'
+[5.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/package.dsv'
+[5.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/package.sh'
+[5.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/package.bash'
+[5.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/package.zsh'
+[5.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darc-f1-01/ros2_ws/install/drive2/share/colcon-core/packages/drive2)
+[5.572s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/5M_test' for CMake module files
+[5.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darc-f1-01/ros2_ws/src/5M_test' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/5M_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/5M_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/5M_test build --build-base /home/darc-f1-01/ros2_ws/build/5M_test/build install --record /home/darc-f1-01/ros2_ws/build/5M_test/install.log --single-version-externally-managed install_data
+[5.576s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/5M_test' for CMake config files
+[5.578s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/5M_test/lib'
+[5.578s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/5M_test/bin'
+[5.578s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/5M_test/lib/pkgconfig/5M_test.pc'
+[5.579s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/5M_test/lib/python3.10/site-packages'
+[5.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('5M_test', 'pythonpath')
+[5.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/hook/pythonpath.ps1'
+[5.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/hook/pythonpath.dsv'
+[5.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/hook/pythonpath.sh'
+[5.586s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/5M_test/bin'
+[5.587s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(5M_test)
+[5.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/package.ps1'
+[5.590s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/package.dsv'
+[5.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/package.sh'
+[5.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/package.bash'
+[5.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/package.zsh'
+[5.595s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darc-f1-01/ros2_ws/install/5M_test/share/colcon-core/packages/5M_test)
+[5.597s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/AEB' for CMake module files
+[5.600s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/AEB' for CMake config files
+[5.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darc-f1-01/ros2_ws/src/AEB' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/AEB/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/AEB build --build-base /home/darc-f1-01/ros2_ws/build/AEB/build install --record /home/darc-f1-01/ros2_ws/build/AEB/install.log --single-version-externally-managed install_data
+[5.604s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/AEB/lib'
+[5.604s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/AEB/bin'
+[5.605s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/AEB/lib/pkgconfig/AEB.pc'
+[5.605s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages'
+[5.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('AEB', 'pythonpath')
+[5.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/AEB/share/AEB/hook/pythonpath.ps1'
+[5.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/AEB/share/AEB/hook/pythonpath.dsv'
+[5.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/AEB/share/AEB/hook/pythonpath.sh'
+[5.611s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/AEB/bin'
+[5.611s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(AEB)
+[5.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/AEB/share/AEB/package.ps1'
+[5.614s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darc-f1-01/ros2_ws/install/AEB/share/AEB/package.dsv'
+[5.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/AEB/share/AEB/package.sh'
+[5.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/AEB/share/AEB/package.bash'
+[5.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/AEB/share/AEB/package.zsh'
+[5.618s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darc-f1-01/ros2_ws/install/AEB/share/colcon-core/packages/AEB)
+[5.619s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.620s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.621s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.621s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.647s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.647s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.699s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.700s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darc-f1-01/ros2_ws/install/local_setup.ps1'
+[5.703s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/darc-f1-01/ros2_ws/install/_local_setup_util_ps1.py'
+[5.708s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darc-f1-01/ros2_ws/install/setup.ps1'
+[5.713s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darc-f1-01/ros2_ws/install/local_setup.sh'
+[5.715s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/darc-f1-01/ros2_ws/install/_local_setup_util_sh.py'
+[5.717s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darc-f1-01/ros2_ws/install/setup.sh'
+[5.722s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darc-f1-01/ros2_ws/install/local_setup.bash'
+[5.724s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darc-f1-01/ros2_ws/install/setup.bash'
+[5.729s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darc-f1-01/ros2_ws/install/local_setup.zsh'
+[5.731s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darc-f1-01/ros2_ws/install/setup.zsh'

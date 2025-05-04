@@ -1,0 +1,21 @@
+[4.511s] Invoking command in '/home/darc-f1-01/ros2_ws/src/test_5M': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/5M_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/5M_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/5M_test build --build-base /home/darc-f1-01/ros2_ws/build/5M_test/build install --record /home/darc-f1-01/ros2_ws/build/5M_test/install.log --single-version-externally-managed install_data
+[5.179s] running egg_info
+[5.180s] creating ../../build/5M_test/test_5M.egg-info
+[5.180s] writing ../../build/5M_test/test_5M.egg-info/PKG-INFO
+[5.180s] writing dependency_links to ../../build/5M_test/test_5M.egg-info/dependency_links.txt
+[5.180s] writing entry points to ../../build/5M_test/test_5M.egg-info/entry_points.txt
+[5.180s] writing requirements to ../../build/5M_test/test_5M.egg-info/requires.txt
+[5.181s] writing top-level names to ../../build/5M_test/test_5M.egg-info/top_level.txt
+[5.181s] writing manifest file '../../build/5M_test/test_5M.egg-info/SOURCES.txt'
+[5.185s] reading manifest file '../../build/5M_test/test_5M.egg-info/SOURCES.txt'
+[5.188s] writing manifest file '../../build/5M_test/test_5M.egg-info/SOURCES.txt'
+[5.192s] running build
+[5.193s] running build_py
+[5.193s] copying 5M_test/test_5M.py -> /home/darc-f1-01/ros2_ws/build/5M_test/build/lib/5M_test
+[5.193s] running install
+[5.193s] running install_lib
+[5.203s] copying /home/darc-f1-01/ros2_ws/build/5M_test/build/lib/5M_test/test_5M.py -> /home/darc-f1-01/ros2_ws/install/5M_test/lib/python3.10/site-packages/5M_test
+[5.203s] byte-compiling /home/darc-f1-01/ros2_ws/install/5M_test/lib/python3.10/site-packages/5M_test/test_5M.py to test_5M.cpython-310.pyc
+[5.203s] running install_data
+[5.203s] error: can't copy 'resource/test_5M': doesn't exist or not a regular file
+[5.280s] Invoked command in '/home/darc-f1-01/ros2_ws/src/test_5M' returned '1': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/5M_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/5M_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/5M_test build --build-base /home/darc-f1-01/ros2_ws/build/5M_test/build install --record /home/darc-f1-01/ros2_ws/build/5M_test/install.log --single-version-externally-managed install_data

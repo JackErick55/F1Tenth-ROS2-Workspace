@@ -1,0 +1,24 @@
+[1.572s] Invoking command in '/home/darc-f1-01/ros2_ws/src/wall_follower': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/wall_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wall_follower build --build-base /home/darc-f1-01/ros2_ws/build/wall_follower/build install --record /home/darc-f1-01/ros2_ws/build/wall_follower/install.log --single-version-externally-managed install_data
+[2.193s] running egg_info
+[2.195s] writing ../../build/wall_follower/wall_follower.egg-info/PKG-INFO
+[2.195s] writing dependency_links to ../../build/wall_follower/wall_follower.egg-info/dependency_links.txt
+[2.196s] writing entry points to ../../build/wall_follower/wall_follower.egg-info/entry_points.txt
+[2.196s] writing requirements to ../../build/wall_follower/wall_follower.egg-info/requires.txt
+[2.196s] writing top-level names to ../../build/wall_follower/wall_follower.egg-info/top_level.txt
+[2.200s] reading manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'
+[2.202s] writing manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'
+[2.202s] running build
+[2.202s] running build_py
+[2.203s] copying wall_follower/wall_follower.py -> /home/darc-f1-01/ros2_ws/build/wall_follower/build/lib/wall_follower
+[2.203s] running install
+[2.204s] running install_lib
+[2.208s] copying /home/darc-f1-01/ros2_ws/build/wall_follower/build/lib/wall_follower/wall_follower.py -> /home/darc-f1-01/ros2_ws/install/wall_follower/lib/python3.10/site-packages/wall_follower
+[2.210s] byte-compiling /home/darc-f1-01/ros2_ws/install/wall_follower/lib/python3.10/site-packages/wall_follower/wall_follower.py to wall_follower.cpython-310.pyc
+[2.213s] running install_data
+[2.213s] running install_egg_info
+[2.218s] removing '/home/darc-f1-01/ros2_ws/install/wall_follower/lib/python3.10/site-packages/wall_follower-0.0.0-py3.10.egg-info' (and everything under it)
+[2.218s] Copying ../../build/wall_follower/wall_follower.egg-info to /home/darc-f1-01/ros2_ws/install/wall_follower/lib/python3.10/site-packages/wall_follower-0.0.0-py3.10.egg-info
+[2.220s] running install_scripts
+[2.269s] Installing wall_follower script to /home/darc-f1-01/ros2_ws/install/wall_follower/lib/wall_follower
+[2.270s] writing list of installed files to '/home/darc-f1-01/ros2_ws/build/wall_follower/install.log'
+[2.344s] Invoked command in '/home/darc-f1-01/ros2_ws/src/wall_follower' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/wall_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wall_follower build --build-base /home/darc-f1-01/ros2_ws/build/wall_follower/build install --record /home/darc-f1-01/ros2_ws/build/wall_follower/install.log --single-version-externally-managed install_data

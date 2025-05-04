@@ -1,0 +1,19 @@
+[1.572s] Invoking command in '/home/darc-f1-01/ros2_ws/build/safety_node': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/safety_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/safety_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/darc-f1-01/ros2_ws/build/safety_node/build --no-deps symlink_data --force
+[2.251s] running develop
+[2.670s] running egg_info
+[2.670s] writing safety_node.egg-info/PKG-INFO
+[2.671s] writing dependency_links to safety_node.egg-info/dependency_links.txt
+[2.671s] writing entry points to safety_node.egg-info/entry_points.txt
+[2.671s] writing requirements to safety_node.egg-info/requires.txt
+[2.671s] writing top-level names to safety_node.egg-info/top_level.txt
+[2.676s] reading manifest file 'safety_node.egg-info/SOURCES.txt'
+[2.677s] writing manifest file 'safety_node.egg-info/SOURCES.txt'
+[2.681s] running build_ext
+[2.682s] Creating /home/darc-f1-01/ros2_ws/install/safety_node/lib/python3.10/site-packages/safety-node.egg-link (link to .)
+[2.684s] Installing safety_node script to /home/darc-f1-01/ros2_ws/install/safety_node/lib/safety_node
+[2.684s] 
+[2.685s] Installed /home/darc-f1-01/ros2_ws/build/safety_node
+[2.685s] running symlink_data
+[2.685s] symbolically linking /home/darc-f1-01/ros2_ws/build/safety_node/resource/safety_node -> /home/darc-f1-01/ros2_ws/install/safety_node/share/ament_index/resource_index/packages
+[2.685s] symbolically linking /home/darc-f1-01/ros2_ws/build/safety_node/package.xml -> /home/darc-f1-01/ros2_ws/install/safety_node/share/safety_node
+[2.774s] Invoked command in '/home/darc-f1-01/ros2_ws/build/safety_node' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/safety_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/safety_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/darc-f1-01/ros2_ws/build/safety_node/build --no-deps symlink_data --force

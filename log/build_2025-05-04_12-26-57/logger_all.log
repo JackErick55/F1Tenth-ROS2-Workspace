@@ -1,0 +1,356 @@
+[0.265s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.265s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9917efe0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff991408e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff991408e0>>)
+[0.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.698s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.698s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/darc-f1-01/ros2_ws'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['ignore', 'ignore_ament_install']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ignore'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ignore_ament_install'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['colcon_pkg']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'colcon_pkg'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['colcon_meta']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'colcon_meta'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['ros']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ros'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['cmake', 'python']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'cmake'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'python'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['python_setup_py']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'python_setup_py'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(bags/accel_test_1) by extensions ['ignore', 'ignore_ament_install']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(bags/accel_test_1) by extension 'ignore'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(bags/accel_test_1) by extension 'ignore_ament_install'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(bags/accel_test_1) by extensions ['colcon_pkg']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(bags/accel_test_1) by extension 'colcon_pkg'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(bags/accel_test_1) by extensions ['colcon_meta']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(bags/accel_test_1) by extension 'colcon_meta'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(bags/accel_test_1) by extensions ['ros']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(bags/accel_test_1) by extension 'ros'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(bags/accel_test_1) by extensions ['cmake', 'python']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(bags/accel_test_1) by extension 'cmake'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(bags/accel_test_1) by extension 'python'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(bags/accel_test_1) by extensions ['python_setup_py']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(bags/accel_test_1) by extension 'python_setup_py'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extensions ['ignore', 'ignore_ament_install']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extension 'ignore'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extension 'ignore_ament_install'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extensions ['colcon_pkg']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extension 'colcon_pkg'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extensions ['colcon_meta']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extension 'colcon_meta'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extensions ['ros']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/5M_test) by extension 'ros'
+[0.739s] DEBUG:colcon.colcon_core.package_identification:Package 'src/5M_test' with type 'ros.ament_python' and name '5M_test'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extensions ['ignore', 'ignore_ament_install']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extension 'ignore'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extension 'ignore_ament_install'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extensions ['colcon_pkg']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extension 'colcon_pkg'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extensions ['colcon_meta']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extension 'colcon_meta'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extensions ['ros']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive2) by extension 'ros'
+[0.742s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drive2' with type 'ros.ament_python' and name 'drive2'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extensions ['ignore', 'ignore_ament_install']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extension 'ignore'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extension 'ignore_ament_install'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extensions ['colcon_pkg']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extension 'colcon_pkg'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extensions ['colcon_meta']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extension 'colcon_meta'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extensions ['ros']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extension 'ros'
+[0.745s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gap_follow' with type 'ros.ament_python' and name 'gap_follow'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_pkg) by extension 'ignore'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_pkg) by extension 'ignore_ament_install'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_pkg) by extensions ['colcon_pkg']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_pkg) by extension 'colcon_pkg'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_pkg) by extensions ['colcon_meta']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_pkg) by extension 'colcon_meta'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_pkg) by extensions ['ros']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_pkg) by extension 'ros'
+[0.748s] DEBUG:colcon.colcon_core.package_identification:Package 'src/safety_pkg' with type 'ros.ament_python' and name 'safety_pkg'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extensions ['ignore', 'ignore_ament_install']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extension 'ignore'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extension 'ignore_ament_install'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extensions ['colcon_pkg']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extension 'colcon_pkg'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extensions ['colcon_meta']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extension 'colcon_meta'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extensions ['ros']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extension 'ros'
+[0.751s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wall_follower' with type 'ros.ament_python' and name 'wall_follower'
+[0.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.841s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/darc-f1-01/ros2_ws/install
+[0.843s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/darc-f1-01/f1tenth_ws/install
+[0.845s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[0.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.940s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'cmake_args' from command line to 'None'
+[0.940s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'cmake_target' from command line to 'None'
+[0.940s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package '5M_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.941s] DEBUG:colcon.colcon_core.verb:Building package '5M_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darc-f1-01/ros2_ws/build/5M_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darc-f1-01/ros2_ws/install/5M_test', 'merge_install': False, 'path': '/home/darc-f1-01/ros2_ws/src/5M_test', 'symlink_install': False, 'test_result_base': None}
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'cmake_args' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'cmake_target' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'cmake_clean_first' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'cmake_force_configure' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'ament_cmake_args' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'drive2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.942s] DEBUG:colcon.colcon_core.verb:Building package 'drive2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darc-f1-01/ros2_ws/build/drive2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darc-f1-01/ros2_ws/install/drive2', 'merge_install': False, 'path': '/home/darc-f1-01/ros2_ws/src/drive2', 'symlink_install': False, 'test_result_base': None}
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_args' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_target' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_clean_cache' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_clean_first' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_force_configure' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'ament_cmake_args' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'catkin_cmake_args' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.944s] DEBUG:colcon.colcon_core.verb:Building package 'gap_follow' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darc-f1-01/ros2_ws/build/gap_follow', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darc-f1-01/ros2_ws/install/gap_follow', 'merge_install': False, 'path': '/home/darc-f1-01/ros2_ws/src/gap_follow', 'symlink_install': False, 'test_result_base': None}
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'safety_pkg' build argument 'cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'safety_pkg' build argument 'cmake_target' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'safety_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'safety_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'safety_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'safety_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'safety_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'safety_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'safety_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.945s] DEBUG:colcon.colcon_core.verb:Building package 'safety_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darc-f1-01/ros2_ws/build/safety_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darc-f1-01/ros2_ws/install/safety_pkg', 'merge_install': False, 'path': '/home/darc-f1-01/ros2_ws/src/safety_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'cmake_args' from command line to 'None'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'cmake_target' from command line to 'None'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'cmake_clean_first' from command line to 'False'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'cmake_force_configure' from command line to 'False'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'ament_cmake_args' from command line to 'None'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.946s] DEBUG:colcon.colcon_core.verb:Building package 'wall_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darc-f1-01/ros2_ws/build/wall_follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darc-f1-01/ros2_ws/install/wall_follower', 'merge_install': False, 'path': '/home/darc-f1-01/ros2_ws/src/wall_follower', 'symlink_install': False, 'test_result_base': None}
+[0.946s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.949s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.949s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/darc-f1-01/ros2_ws/src/5M_test' with build type 'ament_python'
+[0.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('5M_test', 'ament_prefix_path')
+[0.955s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/hook/ament_prefix_path.ps1'
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/hook/ament_prefix_path.dsv'
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/hook/ament_prefix_path.sh'
+[0.960s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.960s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.971s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/darc-f1-01/ros2_ws/src/drive2' with build type 'ament_python'
+[0.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive2', 'ament_prefix_path')
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/hook/ament_prefix_path.ps1'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/hook/ament_prefix_path.dsv'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/hook/ament_prefix_path.sh'
+[0.975s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.975s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.985s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/darc-f1-01/ros2_ws/src/gap_follow' with build type 'ament_python'
+[0.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('gap_follow', 'ament_prefix_path')
+[0.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/gap_follow/share/gap_follow/hook/ament_prefix_path.ps1'
+[0.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/gap_follow/share/gap_follow/hook/ament_prefix_path.dsv'
+[0.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/gap_follow/share/gap_follow/hook/ament_prefix_path.sh'
+[0.990s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.990s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.000s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/darc-f1-01/ros2_ws/src/safety_pkg' with build type 'ament_python'
+[1.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('safety_pkg', 'ament_prefix_path')
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/safety_pkg/share/safety_pkg/hook/ament_prefix_path.ps1'
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/safety_pkg/share/safety_pkg/hook/ament_prefix_path.dsv'
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/safety_pkg/share/safety_pkg/hook/ament_prefix_path.sh'
+[1.005s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.005s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.015s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/darc-f1-01/ros2_ws/src/wall_follower' with build type 'ament_python'
+[1.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_follower', 'ament_prefix_path')
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/wall_follower/share/wall_follower/hook/ament_prefix_path.ps1'
+[1.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/wall_follower/share/wall_follower/hook/ament_prefix_path.dsv'
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/wall_follower/share/wall_follower/hook/ament_prefix_path.sh'
+[1.021s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.022s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.711s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/darc-f1-01/ros2_ws/src/5M_test'
+[1.712s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.712s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.388s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/darc-f1-01/ros2_ws/src/drive2'
+[2.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.081s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/darc-f1-01/ros2_ws/src/gap_follow'
+[3.082s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.083s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.769s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/darc-f1-01/ros2_ws/src/safety_pkg'
+[3.770s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.770s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.469s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/darc-f1-01/ros2_ws/src/wall_follower'
+[4.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darc-f1-01/ros2_ws/src/5M_test': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/5M_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/5M_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/5M_test build --build-base /home/darc-f1-01/ros2_ws/build/5M_test/build install --record /home/darc-f1-01/ros2_ws/build/5M_test/install.log --single-version-externally-managed install_data
+[5.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darc-f1-01/ros2_ws/src/gap_follow': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/gap_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/gap_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gap_follow build --build-base /home/darc-f1-01/ros2_ws/build/gap_follow/build install --record /home/darc-f1-01/ros2_ws/build/gap_follow/install.log --single-version-externally-managed install_data
+[5.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darc-f1-01/ros2_ws/src/safety_pkg': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/safety_pkg build --build-base /home/darc-f1-01/ros2_ws/build/safety_pkg/build install --record /home/darc-f1-01/ros2_ws/build/safety_pkg/install.log --single-version-externally-managed install_data
+[5.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darc-f1-01/ros2_ws/src/drive2': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/drive2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/drive2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drive2 build --build-base /home/darc-f1-01/ros2_ws/build/drive2/build install --record /home/darc-f1-01/ros2_ws/build/drive2/install.log --single-version-externally-managed install_data
+[5.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darc-f1-01/ros2_ws/src/wall_follower': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/wall_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wall_follower build --build-base /home/darc-f1-01/ros2_ws/build/wall_follower/build install --record /home/darc-f1-01/ros2_ws/build/wall_follower/install.log --single-version-externally-managed install_data
+[6.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darc-f1-01/ros2_ws/src/gap_follow' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/gap_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/gap_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gap_follow build --build-base /home/darc-f1-01/ros2_ws/build/gap_follow/build install --record /home/darc-f1-01/ros2_ws/build/gap_follow/install.log --single-version-externally-managed install_data
+[6.313s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/gap_follow' for CMake module files
+[6.314s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/gap_follow' for CMake config files
+[6.316s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/gap_follow/lib'
+[6.317s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/gap_follow/bin'
+[6.317s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/gap_follow/lib/pkgconfig/gap_follow.pc'
+[6.318s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/gap_follow/lib/python3.10/site-packages'
+[6.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('gap_follow', 'pythonpath')
+[6.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/gap_follow/share/gap_follow/hook/pythonpath.ps1'
+[6.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/gap_follow/share/gap_follow/hook/pythonpath.dsv'
+[6.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/gap_follow/share/gap_follow/hook/pythonpath.sh'
+[6.323s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/gap_follow/bin'
+[6.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gap_follow)
+[6.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/gap_follow/share/gap_follow/package.ps1'
+[6.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darc-f1-01/ros2_ws/install/gap_follow/share/gap_follow/package.dsv'
+[6.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/gap_follow/share/gap_follow/package.sh'
+[6.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/gap_follow/share/gap_follow/package.bash'
+[6.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/gap_follow/share/gap_follow/package.zsh'
+[6.334s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darc-f1-01/ros2_ws/install/gap_follow/share/colcon-core/packages/gap_follow)
+[6.337s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/5M_test' for CMake module files
+[6.338s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/5M_test' for CMake config files
+[6.340s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/5M_test/lib'
+[6.341s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/5M_test/bin'
+[6.341s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/5M_test/lib/pkgconfig/5M_test.pc'
+[6.342s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/5M_test/lib/python3.10/site-packages'
+[6.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('5M_test', 'pythonpath')
+[6.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/hook/pythonpath.ps1'
+[6.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darc-f1-01/ros2_ws/src/5M_test' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/5M_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/5M_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/5M_test build --build-base /home/darc-f1-01/ros2_ws/build/5M_test/build install --record /home/darc-f1-01/ros2_ws/build/5M_test/install.log --single-version-externally-managed install_data
+[6.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/hook/pythonpath.dsv'
+[6.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/hook/pythonpath.sh'
+[6.352s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/5M_test/bin'
+[6.352s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(5M_test)
+[6.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/package.ps1'
+[6.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/package.dsv'
+[6.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/package.sh'
+[6.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/package.bash'
+[6.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/5M_test/share/5M_test/package.zsh'
+[6.359s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darc-f1-01/ros2_ws/install/5M_test/share/colcon-core/packages/5M_test)
+[6.397s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/drive2' for CMake module files
+[6.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darc-f1-01/ros2_ws/src/drive2' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/drive2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/drive2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drive2 build --build-base /home/darc-f1-01/ros2_ws/build/drive2/build install --record /home/darc-f1-01/ros2_ws/build/drive2/install.log --single-version-externally-managed install_data
+[6.400s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/drive2' for CMake config files
+[6.402s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/drive2/lib'
+[6.402s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/drive2/bin'
+[6.402s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/drive2/lib/pkgconfig/drive2.pc'
+[6.403s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/drive2/lib/python3.10/site-packages'
+[6.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive2', 'pythonpath')
+[6.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/hook/pythonpath.ps1'
+[6.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/hook/pythonpath.dsv'
+[6.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/hook/pythonpath.sh'
+[6.409s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/drive2/bin'
+[6.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive2)
+[6.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/package.ps1'
+[6.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/package.dsv'
+[6.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/package.sh'
+[6.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/package.bash'
+[6.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/drive2/share/drive2/package.zsh'
+[6.417s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darc-f1-01/ros2_ws/install/drive2/share/colcon-core/packages/drive2)
+[6.421s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/safety_pkg' for CMake module files
+[6.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darc-f1-01/ros2_ws/src/safety_pkg' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/safety_pkg build --build-base /home/darc-f1-01/ros2_ws/build/safety_pkg/build install --record /home/darc-f1-01/ros2_ws/build/safety_pkg/install.log --single-version-externally-managed install_data
+[6.424s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/safety_pkg' for CMake config files
+[6.425s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/safety_pkg/lib'
+[6.426s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/safety_pkg/bin'
+[6.426s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/safety_pkg/lib/pkgconfig/safety_pkg.pc'
+[6.427s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages'
+[6.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('safety_pkg', 'pythonpath')
+[6.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/safety_pkg/share/safety_pkg/hook/pythonpath.ps1'
+[6.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/safety_pkg/share/safety_pkg/hook/pythonpath.dsv'
+[6.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/safety_pkg/share/safety_pkg/hook/pythonpath.sh'
+[6.432s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/safety_pkg/bin'
+[6.433s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(safety_pkg)
+[6.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/safety_pkg/share/safety_pkg/package.ps1'
+[6.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darc-f1-01/ros2_ws/install/safety_pkg/share/safety_pkg/package.dsv'
+[6.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/safety_pkg/share/safety_pkg/package.sh'
+[6.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/safety_pkg/share/safety_pkg/package.bash'
+[6.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/safety_pkg/share/safety_pkg/package.zsh'
+[6.441s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darc-f1-01/ros2_ws/install/safety_pkg/share/colcon-core/packages/safety_pkg)
+[6.457s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/wall_follower' for CMake module files
+[6.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darc-f1-01/ros2_ws/src/wall_follower' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/wall_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wall_follower build --build-base /home/darc-f1-01/ros2_ws/build/wall_follower/build install --record /home/darc-f1-01/ros2_ws/build/wall_follower/install.log --single-version-externally-managed install_data
+[6.460s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/wall_follower' for CMake config files
+[6.462s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/wall_follower/lib'
+[6.462s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/wall_follower/bin'
+[6.462s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/wall_follower/lib/pkgconfig/wall_follower.pc'
+[6.463s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/wall_follower/lib/python3.10/site-packages'
+[6.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_follower', 'pythonpath')
+[6.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/wall_follower/share/wall_follower/hook/pythonpath.ps1'
+[6.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darc-f1-01/ros2_ws/install/wall_follower/share/wall_follower/hook/pythonpath.dsv'
+[6.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darc-f1-01/ros2_ws/install/wall_follower/share/wall_follower/hook/pythonpath.sh'
+[6.468s] Level 1:colcon.colcon_core.environment:checking '/home/darc-f1-01/ros2_ws/install/wall_follower/bin'
+[6.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wall_follower)
+[6.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/wall_follower/share/wall_follower/package.ps1'
+[6.471s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darc-f1-01/ros2_ws/install/wall_follower/share/wall_follower/package.dsv'
+[6.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/wall_follower/share/wall_follower/package.sh'
+[6.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/wall_follower/share/wall_follower/package.bash'
+[6.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/darc-f1-01/ros2_ws/install/wall_follower/share/wall_follower/package.zsh'
+[6.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darc-f1-01/ros2_ws/install/wall_follower/share/colcon-core/packages/wall_follower)
+[6.477s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.479s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.498s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.541s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.543s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darc-f1-01/ros2_ws/install/local_setup.ps1'
+[6.546s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/darc-f1-01/ros2_ws/install/_local_setup_util_ps1.py'
+[6.551s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darc-f1-01/ros2_ws/install/setup.ps1'
+[6.556s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darc-f1-01/ros2_ws/install/local_setup.sh'
+[6.558s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/darc-f1-01/ros2_ws/install/_local_setup_util_sh.py'
+[6.560s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darc-f1-01/ros2_ws/install/setup.sh'
+[6.566s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darc-f1-01/ros2_ws/install/local_setup.bash'
+[6.567s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darc-f1-01/ros2_ws/install/setup.bash'
+[6.573s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darc-f1-01/ros2_ws/install/local_setup.zsh'
+[6.575s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darc-f1-01/ros2_ws/install/setup.zsh'

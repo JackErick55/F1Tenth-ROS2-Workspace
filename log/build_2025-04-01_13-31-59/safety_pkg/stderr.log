@@ -1,0 +1,5 @@
+  File "/home/darc-f1-01/ros2_ws/install/safety_pkg/lib/python3.10/site-packages/safety_pkg/safety_node.py", line 38
+    self.get_logger().warn(f'🚨 Obstacle detected! Stopping. Distance: {front_distance:.2f}m>
+                           ^
+SyntaxError: unterminated string literal (detected at line 38)
+

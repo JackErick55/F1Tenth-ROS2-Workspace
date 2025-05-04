@@ -1,0 +1,36 @@
+[3.791s] Invoking command in '/home/darc-f1-01/ros2_ws/src/AEB': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/AEB/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/AEB build --build-base /home/darc-f1-01/ros2_ws/build/AEB/build install --record /home/darc-f1-01/ros2_ws/build/AEB/install.log --single-version-externally-managed install_data
+[4.423s] running egg_info
+[4.424s] creating ../../build/AEB/AEB.egg-info
+[4.425s] writing ../../build/AEB/AEB.egg-info/PKG-INFO
+[4.425s] writing dependency_links to ../../build/AEB/AEB.egg-info/dependency_links.txt
+[4.426s] writing entry points to ../../build/AEB/AEB.egg-info/entry_points.txt
+[4.426s] writing requirements to ../../build/AEB/AEB.egg-info/requires.txt
+[4.426s] writing top-level names to ../../build/AEB/AEB.egg-info/top_level.txt
+[4.427s] writing manifest file '../../build/AEB/AEB.egg-info/SOURCES.txt'
+[4.431s] reading manifest file '../../build/AEB/AEB.egg-info/SOURCES.txt'
+[4.432s] writing manifest file '../../build/AEB/AEB.egg-info/SOURCES.txt'
+[4.433s] running build
+[4.433s] running build_py
+[4.433s] creating /home/darc-f1-01/ros2_ws/build/AEB/build
+[4.434s] creating /home/darc-f1-01/ros2_ws/build/AEB/build/lib
+[4.434s] creating /home/darc-f1-01/ros2_ws/build/AEB/build/lib/AEB
+[4.434s] copying AEB/__init__.py -> /home/darc-f1-01/ros2_ws/build/AEB/build/lib/AEB
+[4.434s] copying AEB/AEB.py -> /home/darc-f1-01/ros2_ws/build/AEB/build/lib/AEB
+[4.435s] running install
+[4.435s] running install_lib
+[4.447s] creating /home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages/AEB
+[4.448s] copying /home/darc-f1-01/ros2_ws/build/AEB/build/lib/AEB/__init__.py -> /home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages/AEB
+[4.448s] copying /home/darc-f1-01/ros2_ws/build/AEB/build/lib/AEB/AEB.py -> /home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages/AEB
+[4.448s] byte-compiling /home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages/AEB/__init__.py to __init__.cpython-310.pyc
+[4.449s] byte-compiling /home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages/AEB/AEB.py to AEB.cpython-310.pyc
+[4.449s] running install_data
+[4.450s] creating /home/darc-f1-01/ros2_ws/install/AEB/share/ament_index
+[4.450s] creating /home/darc-f1-01/ros2_ws/install/AEB/share/ament_index/resource_index
+[4.450s] creating /home/darc-f1-01/ros2_ws/install/AEB/share/ament_index/resource_index/packages
+[4.451s] copying resource/AEB -> /home/darc-f1-01/ros2_ws/install/AEB/share/ament_index/resource_index/packages
+[4.451s] copying package.xml -> /home/darc-f1-01/ros2_ws/install/AEB/share/AEB
+[4.451s] running install_egg_info
+[4.453s] Copying ../../build/AEB/AEB.egg-info to /home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages/AEB-0.0.0-py3.10.egg-info
+[4.456s] running install_scripts
+[4.512s] writing list of installed files to '/home/darc-f1-01/ros2_ws/build/AEB/install.log'
+[4.651s] Invoked command in '/home/darc-f1-01/ros2_ws/src/AEB' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/AEB/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/AEB/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/AEB build --build-base /home/darc-f1-01/ros2_ws/build/AEB/build install --record /home/darc-f1-01/ros2_ws/build/AEB/install.log --single-version-externally-managed install_data

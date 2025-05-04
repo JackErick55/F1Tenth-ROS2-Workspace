@@ -1,0 +1,37 @@
+[4.554s] Invoking command in '/home/darc-f1-01/ros2_ws/src/test_5m': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/test_5m/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_5m build --build-base /home/darc-f1-01/ros2_ws/build/test_5m/build install --record /home/darc-f1-01/ros2_ws/build/test_5m/install.log --single-version-externally-managed install_data
+[5.344s] running egg_info
+[5.347s] creating ../../build/test_5m/test_5m.egg-info
+[5.347s] writing ../../build/test_5m/test_5m.egg-info/PKG-INFO
+[5.348s] writing dependency_links to ../../build/test_5m/test_5m.egg-info/dependency_links.txt
+[5.348s] writing entry points to ../../build/test_5m/test_5m.egg-info/entry_points.txt
+[5.348s] writing requirements to ../../build/test_5m/test_5m.egg-info/requires.txt
+[5.348s] writing top-level names to ../../build/test_5m/test_5m.egg-info/top_level.txt
+[5.349s] writing manifest file '../../build/test_5m/test_5m.egg-info/SOURCES.txt'
+[5.354s] reading manifest file '../../build/test_5m/test_5m.egg-info/SOURCES.txt'
+[5.355s] writing manifest file '../../build/test_5m/test_5m.egg-info/SOURCES.txt'
+[5.355s] running build
+[5.356s] running build_py
+[5.356s] creating /home/darc-f1-01/ros2_ws/build/test_5m/build
+[5.356s] creating /home/darc-f1-01/ros2_ws/build/test_5m/build/lib
+[5.356s] creating /home/darc-f1-01/ros2_ws/build/test_5m/build/lib/test_5m
+[5.357s] copying test_5m/__init__.py -> /home/darc-f1-01/ros2_ws/build/test_5m/build/lib/test_5m
+[5.357s] copying test_5m/test_5m.py -> /home/darc-f1-01/ros2_ws/build/test_5m/build/lib/test_5m
+[5.357s] running install
+[5.358s] running install_lib
+[5.364s] creating /home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages/test_5m
+[5.365s] copying /home/darc-f1-01/ros2_ws/build/test_5m/build/lib/test_5m/__init__.py -> /home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages/test_5m
+[5.365s] copying /home/darc-f1-01/ros2_ws/build/test_5m/build/lib/test_5m/test_5m.py -> /home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages/test_5m
+[5.367s] byte-compiling /home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages/test_5m/__init__.py to __init__.cpython-310.pyc
+[5.368s] byte-compiling /home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages/test_5m/test_5m.py to test_5m.cpython-310.pyc
+[5.370s] running install_data
+[5.370s] creating /home/darc-f1-01/ros2_ws/install/test_5m/share/ament_index
+[5.370s] creating /home/darc-f1-01/ros2_ws/install/test_5m/share/ament_index/resource_index
+[5.370s] creating /home/darc-f1-01/ros2_ws/install/test_5m/share/ament_index/resource_index/packages
+[5.371s] copying resource/test_5m -> /home/darc-f1-01/ros2_ws/install/test_5m/share/ament_index/resource_index/packages
+[5.371s] copying package.xml -> /home/darc-f1-01/ros2_ws/install/test_5m/share/test_5m
+[5.371s] running install_egg_info
+[5.377s] Copying ../../build/test_5m/test_5m.egg-info to /home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages/test_5m-0.0.0-py3.10.egg-info
+[5.379s] running install_scripts
+[5.440s] Installing test_5m script to /home/darc-f1-01/ros2_ws/install/test_5m/lib/test_5m
+[5.441s] writing list of installed files to '/home/darc-f1-01/ros2_ws/build/test_5m/install.log'
+[5.549s] Invoked command in '/home/darc-f1-01/ros2_ws/src/test_5m' returned '0': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/test_5m/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/test_5m/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_5m build --build-base /home/darc-f1-01/ros2_ws/build/test_5m/build install --record /home/darc-f1-01/ros2_ws/build/test_5m/install.log --single-version-externally-managed install_data

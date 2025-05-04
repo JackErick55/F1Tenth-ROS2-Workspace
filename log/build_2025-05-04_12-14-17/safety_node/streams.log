@@ -1,0 +1,20 @@
+[5.343s] Invoking command in '/home/darc-f1-01/ros2_ws/src/stop': PYTHONPATH=/home/darc-f1-01/ros2_ws/build/safety_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darc-f1-01/ros2_ws/install/safety_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/safety_node build --build-base /home/darc-f1-01/ros2_ws/build/safety_node/build install --record /home/darc-f1-01/ros2_ws/build/safety_node/install.log --single-version-externally-managed install_data
+[6.090s] running egg_info
+[6.092s] writing ../../build/safety_node/safety_node.egg-info/PKG-INFO
+[6.093s] writing dependency_links to ../../build/safety_node/safety_node.egg-info/dependency_links.txt
+[6.093s] writing entry points to ../../build/safety_node/safety_node.egg-info/entry_points.txt
+[6.093s] writing requirements to ../../build/safety_node/safety_node.egg-info/requires.txt
+[6.094s] writing top-level names to ../../build/safety_node/safety_node.egg-info/top_level.txt
+[6.100s] reading manifest file '../../build/safety_node/safety_node.egg-info/SOURCES.txt'
+[6.104s] writing manifest file '../../build/safety_node/safety_node.egg-info/SOURCES.txt'
+[6.104s] running build
+[6.104s] running build_py
+[6.106s] running install
+[6.106s] running install_lib
+[6.112s] running install_data
+[6.112s] running install_egg_info
+[6.118s] removing '/home/darc-f1-01/ros2_ws/install/safety_node/lib/python3.10/site-packages/safety_node-0.1.0-py3.10.egg-info' (and everything under it)
+[6.118s] Copying ../../build/safety_node/safety_node.egg-info to /home/darc-f1-01/ros2_ws/install/safety_node/lib/python3.10/site-packages/safety_node-0.1.0-py3.10.egg-info
+[6.121s] running install_scripts
+[6.179s] Installing safety_node script to /home/darc-f1-01/ros2_ws/install/safety_node/lib/safety_node
+[6.180s] writing list of installed files to '/home/darc-f1-01/ros2_ws/build/safety_node/install.log'

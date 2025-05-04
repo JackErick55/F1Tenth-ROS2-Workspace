@@ -9,7 +9,7 @@ class DriveStraightNode(Node):
        
         self.drive_pub = self.create_publisher(AckermannDriveStamped, '/drive', 10)
        
-        self.drive_speed = 5.0 # Speed in meters per second
+        self.drive_speed = 2.0 # Speed in meters per second
         self.steering_angle = 0.0  # Drive straight
        
         self.get_logger().info('Starting movement indefinitely...')

@@ -76,23 +76,23 @@ The `safety_pkg` is a ros2 package that incorperates automatic emergency braking
 
 > **Note:** The most important part of this package is that it can over ride the manual and autonomuous controls. To do this you will need to change the `mux.yaml` file. This file can be found `$HOME/f1tenth_ws/src/f1tenth_system/f1tenth_stack/config/mux.yaml`. The following is an example of what needs to be changed. The `safety_node` portion was added to the `mux` file with a **higher priority** than any other **topic**.
 
-    ```yaml
-    ackermann_mux:
-    ros__parameters:
-        topics:
-        navigation:
-            topic   : /drive
-            timeout : 0.2
-            priority: 10
-        joystick:
-            topic   : /teleop
-            timeout : 0.2
-            priority: 100
-        safety_node:
-            topic   : /safety_node
-            timeout : 1.0
-            priority: 200
-    ```
+```yaml
+ackermann_mux:
+  ros__parameters:
+    topics:
+      navigation:
+        topic   : /drive
+        timeout : 0.2
+        priority: 10
+      joystick:
+        topic   : /teleop
+        timeout : 0.2
+        priority: 100
+      safety_node:
+        topic   : /safety_node
+        timeout : 1.0
+        priority: 200
+```
 
 ### Step: 1 - Connect Controller and Start Launch File
 

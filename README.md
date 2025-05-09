@@ -109,12 +109,26 @@ Next when using a properly setting up ROS2 package you can use the `ros2 run` co
 ros2 run safety_node safety_node
 ```
 
+> **NOTE:** THe main govering equation was `d = v² / (2 * |a|)` and was derived from the basic physics equation `Vf² = Vi² + 2 * a * d`. In this case the final velocity (Vf) is zero and then solve for distance.
+
+When implementing the `d = v² / (2 * |a|)` the braking deceleraction could not be controlled. After several attempts to find the correct deceleration Tyler and I changed the governing equation to (Vi²*2) / (2 * a) with a safety margin of 1 meter. With this equation the car was able to stop at up to 5 m/s but but after stopping the car is unable to reverse.
+
 Now you will be able to drive freely in manual control without the worry of running into an object.
 
 ## `wall_follower`
 
+Next when using a properly setting up ROS2 package you can use the `ros2 run` command to execute the package. Open a new terminal window and use the following command to run the `wall_follower` package. This will have the car follow the left hand wall (the side that has the battery).
 
+```bash
+ros2 run safety_node safety_node
+```
+
+The wall follower has been reconstructed based on Malik's SURE program wall follower code. The PID gains were tuned for the phsyical car versus simulation. But the main change came from the challenge of turning. The car originally started with alpha at 45 degrees this didn't give the car enough time to react to 90 degrees turns. To correct this issue alpha was changed from 45 to 60 degrees this gave the car a better predictive capability.
+
+![alt text](<Screenshot from 2025-05-09 10-30-53.png>)
+
+Orange dashed line is the desired path and the red lines indicate the 2 data points it is reciving to understand how far away from the car is from the wall and hypotenuse allows the heading of the car to maintain the correct direction.
 
 ## `gap_follower`
 
-This package was downloaded from Maliks SURE program has been implemented but not testing or modifcations have been made.
+This package was downloaded from Malik's SURE program has been implemented but not testing or modified.
